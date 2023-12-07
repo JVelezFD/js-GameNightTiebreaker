@@ -15,8 +15,8 @@ body {
   font-family: 'Nunito', sans-serif;
   font-weight: 400;
   height: 100vh;
-  color: #333;
-  background-image: linear-gradient(to top left, #753682 0%, #bf2e34 100%);
+  color: #f4b266;
+  background-image: linear-gradient(to top left, #f4b266 0%, #f4b266 85%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -27,7 +27,7 @@ main {
   position: relative;
   width: 100rem;
   height: 60rem;
-  background-color: rgba(255, 255, 255, 0.35);
+  background-color: #808f87;
   backdrop-filter: blur(200px);
   filter: blur();
   box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.25);
@@ -59,12 +59,12 @@ main {
 .score {
   font-size: 8rem;
   font-weight: 300;
-  color: #c7365f;
+  color: #f4b266;
   margin-bottom: auto;
 }
 
 .player--active {
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: #afd0bf;
 }
 .player--active .name {
   font-weight: 700;
@@ -78,10 +78,10 @@ main {
 }
 
 .current {
-  background-color: #c7365f;
+  background-color: #f4b266;
   opacity: 0.8;
   border-radius: 9px;
-  color: #fff;
+  color: #808f87;
   width: 65%;
   padding: 2rem;
   text-align: center;
@@ -92,7 +92,7 @@ main {
   text-transform: uppercase;
   margin-bottom: 1rem;
   font-size: 1.7rem;
-  color: #ddd;
+  color: #f4b266;
 }
 
 .current-score {
@@ -158,12 +158,12 @@ main {
 }
 
 .player--winner {
-  background-color: #2f2f2f;
+  background-color: #9b7e46;
 }
 
 .player--winner .name {
   font-weight: 700;
-  color: #c7365f;
+  color: #afd0bf;
 }
 
 .hidden {
