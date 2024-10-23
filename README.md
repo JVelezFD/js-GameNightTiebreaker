@@ -27,6 +27,12 @@ The Dice Game is a simple, turn-based game for two players. Each player takes tu
 - If a player rolls a 1, their current round score is lost, and their turn is over.
 - Players can choose to "Hold" their current score and pass the turn to the other player, saving their points.
 - The game continues until one player reaches the set winning score.
+
+## Game Start ScreenShot:
+<img width="577" alt="GameStartScreen" src="https://github.com/user-attachments/assets/e40e4abd-ab53-47c1-9a50-2cbb5149f478">
+
+
+
 ## Installation
 
 1. clone the Repo
